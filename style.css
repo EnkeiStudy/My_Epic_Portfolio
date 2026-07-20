@@ -252,11 +252,14 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--main-color);
+  background: linear-gradient(
+    100deg,
+    #ef1206 10%,
+    #720701 100%
+  );
   height: 600px;
   border-radius: 3rem;
   cursor: pointer;
-  border: 5px solid transparent;
   transition: 0.4s ease-in-out;
 }
 .service-box:hover{
